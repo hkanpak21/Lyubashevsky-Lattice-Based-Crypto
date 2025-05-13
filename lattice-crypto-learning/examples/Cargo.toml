@@ -1,0 +1,12 @@
+[package]
+name = "examples"
+version = "0.1.0"
+edition = "2021"
+description = "Examples demonstrating the lattice cryptography toolkit"
+
+[dependencies]
+lattice-core = { path = "../lattice-core" }
+kyber-ml-kem = { path = "../kyber-ml-kem" }
+dilithium-ml-dsa = { path = "../dilithium-ml-dsa" }
+rand = { workspace = true }
+hex = { workspace = true } 

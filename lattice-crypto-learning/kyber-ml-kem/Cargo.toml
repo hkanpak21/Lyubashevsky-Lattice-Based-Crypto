@@ -1,0 +1,11 @@
+[package]
+name = "kyber-ml-kem"
+version = "0.1.0"
+edition = "2021"
+description = "CRYSTALS-Kyber (ML-KEM) post-quantum key encapsulation mechanism"
+
+[dependencies]
+lattice-core = { path = "../lattice-core" }
+rand = { workspace = true }
+sha3 = { workspace = true }
+hex = { workspace = true } 

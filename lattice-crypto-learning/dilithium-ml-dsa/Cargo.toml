@@ -1,0 +1,11 @@
+[package]
+name = "dilithium-ml-dsa"
+version = "0.1.0"
+edition = "2021"
+description = "CRYSTALS-Dilithium (ML-DSA) post-quantum digital signature algorithm"
+
+[dependencies]
+lattice-core = { path = "../lattice-core" }
+rand = { workspace = true }
+sha3 = { workspace = true }
+hex = { workspace = true } 
